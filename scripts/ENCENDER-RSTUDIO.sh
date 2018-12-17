@@ -1,3 +1,3 @@
 #!/bin/bash
-ins = "i-9809980989"
-aws ec2 start-intances --instance-ids $ins
+ins="i-033b3bbb4d0edf5b5"
+aws ec2 start-instances --instance-ids $ins
