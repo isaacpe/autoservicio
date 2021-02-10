@@ -1,0 +1,37 @@
+srvcceasonz01d.mdef.es:  gpfs.snap: started at Wed Feb 10 08:33:31 UTC 2021.
+srvcceasonz01d.mdef.es:  Gathering common data...
+srvcceasonz01d.mdef.es:  Gathering Linux specific data...
+srvcceasonz01d.mdef.es:  
+srvcceasonz01d.mdef.es:  The following command timed out:
+srvcceasonz01d.mdef.es:  /bin/netstat -r
+srvcceasonz01d.mdef.es:  
+srvcceasonz01d.mdef.es:  Killing timed out process pid=250967
+srvcceasonz01d.mdef.es:  /usr/lpp/mmfs/bin/gpfs.snap[4684]: performLocalTasks[1974]: getDataLinux[1190]: runCommand[2544]: wait: 250967: Killed
+srvcceasonz01d.mdef.es:  Gathering extended network data...
+srvcceasonz01d.mdef.es:  
+srvcceasonz01d.mdef.es:  The following command timed out:
+srvcceasonz01d.mdef.es:  /usr/sbin/arp >> /tmp/gpfs.snapOut/117549/gather/srvcceasonz01d_20210210083331.247709/srvcceasonz01d_20210210083331.247709/networking/arp_commands.out
+srvcceasonz01d.mdef.es:  
+srvcceasonz01d.mdef.es:  Killing timed out process pid=251051
+srvcceasonz01d.mdef.es:  /usr/lpp/mmfs/bin/gpfs.snap[4684]: performLocalTasks[1974]: getDataLinux[1212]: extendNetworkCollection[3265]: runCommand[2544]: wait: 251051: Killed
+srvcceasonz01d.mdef.es:  
+srvcceasonz01d.mdef.es:  The following command timed out:
+srvcceasonz01d.mdef.es:  /usr/sbin/arp -a >> /tmp/gpfs.snapOut/117549/gather/srvcceasonz01d_20210210083331.247709/srvcceasonz01d_20210210083331.247709/networking/arp_commands.out
+srvcceasonz01d.mdef.es:  
+srvcceasonz01d.mdef.es:  Killing timed out process pid=251215
+srvcceasonz01d.mdef.es:  /usr/lpp/mmfs/bin/gpfs.snap[4684]: performLocalTasks[1974]: getDataLinux[1212]: extendNetworkCollection[3269]: runCommand[2544]: wait: 251215: Killed
+srvcceasonz01d.mdef.es:  Gathering local callhome data...
+srvcceasonz01d.mdef.es:  Gathering local perfmon data...
+srvcceasonz01d.mdef.es:  gpfs.snap: Attention:  is not installed. Data from  must be collected separately.
+srvcceasonz01d.mdef.es:  Gathering local sysmon data...
+srvcceasonz01d.mdef.es:  Gathering local cnss data...
+srvcceasonz01d.mdef.es:  Gathering local gui data...
+srvcceasonz01d.mdef.es:  Gathering trace reports and internal dumps...
+srvcceasonz01d.mdef.es:  Gathering Transparent Cloud Tiering data at level BASIC...
+srvcceasonz01d.mdef.es:  gpfs.snap:  The Transparent Cloud Tiering snap software was not detected on node srvcceasonz01d.mdef.es
+srvcceasonz01d.mdef.es:  Gathering QoS data at level FULL...
+srvcceasonz01d.mdef.es:  gpfs.snap:  No QoS configuration was found for this cluster.
+srvcceasonz01d.mdef.es:  Writing * to file /tmp/gpfs.snapOut/117549/gpfs.snap.srvcceasonz01d_20210210083331.247709.out.tar.gz
+srvcceasonz01d.mdef.es:  gpfs.snap_masterKey_srvcceasonz02d.mdef.es_117549_1612945837:srvcceasonz01d.mdef.es:0:/var/mmfs/tmp/cleanupAllow/gpfs.snap.srvcceasonz01d_20210210083331.247709.out.tar.gz:
+srvcceasonz01d.mdef.es:  gpfs.snap: Completed at Wed Feb 10 08:35:03 UTC 2021.  Return code is 0
+srvcceasonz01d.mdef.es:  gpfs.snap:  QoS configuration collection complete.
